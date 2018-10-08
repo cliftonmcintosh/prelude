@@ -37,4 +37,8 @@
 
 (provide 'prelude-elixir)
 
+(add-hook 'elixir-mode-hook
+          (lambda ()
+            (setq-local whitespace-line-column 120)))
+
 ;;; prelude-elixir.el ends here
